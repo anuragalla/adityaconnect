@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75CC3FF11A73AA900043FF05 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC3FF01A73AA900043FF05 /* SwiftyJSON.swift */; };
+		75D2A5041A7202AC006F2892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A5031A7202AC006F2892 /* AppDelegate.swift */; };
+		75D2A5061A7202AC006F2892 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A5051A7202AC006F2892 /* FirstViewController.swift */; };
+		75D2A5081A7202AC006F2892 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A5071A7202AC006F2892 /* SecondViewController.swift */; };
+		75D2A50B1A7202AC006F2892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D2A5091A7202AC006F2892 /* Main.storyboard */; };
+		75D2A50D1A7202AC006F2892 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D2A50C1A7202AC006F2892 /* Images.xcassets */; };
+		75D2A5101A7202AC006F2892 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D2A50E1A7202AC006F2892 /* LaunchScreen.xib */; };
+		75D2A51C1A7202AC006F2892 /* AdityaConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A51B1A7202AC006F2892 /* AdityaConnectTests.swift */; };
+		75D2A5281A720389006F2892 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A5271A720389006F2892 /* NewsFeedViewController.swift */; };
+		75D2A52A1A7204BC006F2892 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A5291A7204BC006F2892 /* NewsFeed.swift */; };
+		75D2A52C1A72063A006F2892 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D2A52B1A72063A006F2892 /* SampleData.swift */; };
+		75D309221A779C9600659804 /* NewsFeed.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75D309211A779C9600659804 /* NewsFeed.plist */; };
+		75D5BDCE1A735DCA00CAB1B8 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75D5BDC51A735BBB00CAB1B8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D2A5161A7202AC006F2892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D2A4F61A7202AC006F2892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D2A4FD1A7202AC006F2892;
+			remoteInfo = AdityaConnect;
+		};
+		75D5BDC41A735BBB00CAB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		75D5BDC61A735BBB00CAB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		75D5BDC81A735BBB00CAB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		75D5BDCA1A735D0900CAB1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75D5BDCD1A735D7200CAB1B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75D5BDCE1A735DCA00CAB1B8 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75CC3FF01A73AA900043FF05 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		75D2A4FE1A7202AC006F2892 /* AdityaConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdityaConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D2A5021A7202AC006F2892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D2A5031A7202AC006F2892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75D2A5051A7202AC006F2892 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		75D2A5071A7202AC006F2892 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		75D2A50A1A7202AC006F2892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D2A50C1A7202AC006F2892 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75D2A50F1A7202AC006F2892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75D2A5151A7202AC006F2892 /* AdityaConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdityaConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D2A51A1A7202AC006F2892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D2A51B1A7202AC006F2892 /* AdityaConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdityaConnectTests.swift; sourceTree = "<group>"; };
+		75D2A5271A720389006F2892 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		75D2A5291A7204BC006F2892 /* NewsFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		75D2A52B1A72063A006F2892 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		75D309211A779C9600659804 /* NewsFeed.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsFeed.plist; sourceTree = "<group>"; };
+		75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D2A4FB1A7202AC006F2892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D2A5121A7202AC006F2892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D2A4F51A7202AC006F2892 = {
+			isa = PBXGroup;
+			children = (
+				75D2A5001A7202AC006F2892 /* AdityaConnect */,
+				75D2A5181A7202AC006F2892 /* AdityaConnectTests */,
+				75D2A4FF1A7202AC006F2892 /* Products */,
+				75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		75D2A4FF1A7202AC006F2892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D2A4FE1A7202AC006F2892 /* AdityaConnect.app */,
+				75D2A5151A7202AC006F2892 /* AdityaConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D2A5001A7202AC006F2892 /* AdityaConnect */ = {
+			isa = PBXGroup;
+			children = (
+				75D309211A779C9600659804 /* NewsFeed.plist */,
+				75CC3FF01A73AA900043FF05 /* SwiftyJSON.swift */,
+				75D2A52B1A72063A006F2892 /* SampleData.swift */,
+				75D2A5291A7204BC006F2892 /* NewsFeed.swift */,
+				75D2A5271A720389006F2892 /* NewsFeedViewController.swift */,
+				75D2A5031A7202AC006F2892 /* AppDelegate.swift */,
+				75D2A5051A7202AC006F2892 /* FirstViewController.swift */,
+				75D2A5071A7202AC006F2892 /* SecondViewController.swift */,
+				75D2A5091A7202AC006F2892 /* Main.storyboard */,
+				75D2A50C1A7202AC006F2892 /* Images.xcassets */,
+				75D2A50E1A7202AC006F2892 /* LaunchScreen.xib */,
+				75D2A5011A7202AC006F2892 /* Supporting Files */,
+			);
+			path = AdityaConnect;
+			sourceTree = "<group>";
+		};
+		75D2A5011A7202AC006F2892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D2A5021A7202AC006F2892 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D2A5181A7202AC006F2892 /* AdityaConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				75D2A51B1A7202AC006F2892 /* AdityaConnectTests.swift */,
+				75D2A5191A7202AC006F2892 /* Supporting Files */,
+			);
+			path = AdityaConnectTests;
+			sourceTree = "<group>";
+		};
+		75D2A5191A7202AC006F2892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D2A51A1A7202AC006F2892 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D5BDBF1A735BBB00CAB1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D5BDC51A735BBB00CAB1B8 /* Alamofire.framework */,
+				75D5BDC71A735BBB00CAB1B8 /* Alamofire.framework */,
+				75D5BDC91A735BBB00CAB1B8 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D2A4FD1A7202AC006F2892 /* AdityaConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D2A51F1A7202AC006F2892 /* Build configuration list for PBXNativeTarget "AdityaConnect" */;
+			buildPhases = (
+				75D2A4FA1A7202AC006F2892 /* Sources */,
+				75D2A4FB1A7202AC006F2892 /* Frameworks */,
+				75D2A4FC1A7202AC006F2892 /* Resources */,
+				75D5BDCD1A735D7200CAB1B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D5BDCB1A735D0900CAB1B8 /* PBXTargetDependency */,
+			);
+			name = AdityaConnect;
+			productName = AdityaConnect;
+			productReference = 75D2A4FE1A7202AC006F2892 /* AdityaConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D2A5141A7202AC006F2892 /* AdityaConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D2A5221A7202AC006F2892 /* Build configuration list for PBXNativeTarget "AdityaConnectTests" */;
+			buildPhases = (
+				75D2A5111A7202AC006F2892 /* Sources */,
+				75D2A5121A7202AC006F2892 /* Frameworks */,
+				75D2A5131A7202AC006F2892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D2A5171A7202AC006F2892 /* PBXTargetDependency */,
+			);
+			name = AdityaConnectTests;
+			productName = AdityaConnectTests;
+			productReference = 75D2A5151A7202AC006F2892 /* AdityaConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D2A4F61A7202AC006F2892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Anurag;
+				TargetAttributes = {
+					75D2A4FD1A7202AC006F2892 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					75D2A5141A7202AC006F2892 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 75D2A4FD1A7202AC006F2892;
+					};
+				};
+			};
+			buildConfigurationList = 75D2A4F91A7202AC006F2892 /* Build configuration list for PBXProject "AdityaConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D2A4F51A7202AC006F2892;
+			productRefGroup = 75D2A4FF1A7202AC006F2892 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75D5BDBF1A735BBB00CAB1B8 /* Products */;
+					ProjectRef = 75D5BDBE1A735BBB00CAB1B8 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				75D2A4FD1A7202AC006F2892 /* AdityaConnect */,
+				75D2A5141A7202AC006F2892 /* AdityaConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		75D5BDC51A735BBB00CAB1B8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 75D5BDC41A735BBB00CAB1B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D5BDC71A735BBB00CAB1B8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 75D5BDC61A735BBB00CAB1B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D5BDC91A735BBB00CAB1B8 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 75D5BDC81A735BBB00CAB1B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D2A4FC1A7202AC006F2892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D2A50B1A7202AC006F2892 /* Main.storyboard in Resources */,
+				75D309221A779C9600659804 /* NewsFeed.plist in Resources */,
+				75D2A5101A7202AC006F2892 /* LaunchScreen.xib in Resources */,
+				75D2A50D1A7202AC006F2892 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D2A5131A7202AC006F2892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D2A4FA1A7202AC006F2892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D2A5081A7202AC006F2892 /* SecondViewController.swift in Sources */,
+				75D2A52C1A72063A006F2892 /* SampleData.swift in Sources */,
+				75D2A5041A7202AC006F2892 /* AppDelegate.swift in Sources */,
+				75D2A5061A7202AC006F2892 /* FirstViewController.swift in Sources */,
+				75D2A52A1A7204BC006F2892 /* NewsFeed.swift in Sources */,
+				75CC3FF11A73AA900043FF05 /* SwiftyJSON.swift in Sources */,
+				75D2A5281A720389006F2892 /* NewsFeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D2A5111A7202AC006F2892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D2A51C1A7202AC006F2892 /* AdityaConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D2A5171A7202AC006F2892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D2A4FD1A7202AC006F2892 /* AdityaConnect */;
+			targetProxy = 75D2A5161A7202AC006F2892 /* PBXContainerItemProxy */;
+		};
+		75D5BDCB1A735D0900CAB1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 75D5BDCA1A735D0900CAB1B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D2A5091A7202AC006F2892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D2A50A1A7202AC006F2892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D2A50E1A7202AC006F2892 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D2A50F1A7202AC006F2892 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D2A51D1A7202AC006F2892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D2A51E1A7202AC006F2892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D2A5201A7202AC006F2892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdityaConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75D2A5211A7202AC006F2892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdityaConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75D2A5231A7202AC006F2892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdityaConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdityaConnect.app/AdityaConnect";
+			};
+			name = Debug;
+		};
+		75D2A5241A7202AC006F2892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdityaConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdityaConnect.app/AdityaConnect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D2A4F91A7202AC006F2892 /* Build configuration list for PBXProject "AdityaConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D2A51D1A7202AC006F2892 /* Debug */,
+				75D2A51E1A7202AC006F2892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D2A51F1A7202AC006F2892 /* Build configuration list for PBXNativeTarget "AdityaConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D2A5201A7202AC006F2892 /* Debug */,
+				75D2A5211A7202AC006F2892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D2A5221A7202AC006F2892 /* Build configuration list for PBXNativeTarget "AdityaConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D2A5231A7202AC006F2892 /* Debug */,
+				75D2A5241A7202AC006F2892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D2A4F61A7202AC006F2892 /* Project object */;
+}

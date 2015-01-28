@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/SampleData.swift"
+            timestampString = "444044623.692767"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getData()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/SampleData.swift"
+            timestampString = "444046286.859383"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getData()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.(getData (AdityaConnect.SampleData) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444041969.989842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "3405">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.(getData (AdityaConnect.SampleData) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444041969.990998"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "3414">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/SampleData.swift"
+            timestampString = "444044623.692767"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "SampleData"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.newsFeed.getter : Swift.Array&lt;AdityaConnect.NewsFeed&gt;"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042211.923562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.newsFeed.setter : Swift.Array&lt;AdityaConnect.NewsFeed&gt;"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042211.923822"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.newsFeed.materializeForSet : Swift.Array&lt;AdityaConnect.NewsFeed&gt;"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042211.924054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.init (AdityaConnect.SampleData.Type)() -&gt; AdityaConnect.SampleData"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042211.924261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/SampleData.swift"
+            timestampString = "444044623.692767"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.deinit"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042855.451163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.__deallocating_deinit"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042855.452036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.SampleData.init (AdityaConnect.SampleData.Type)() -&gt; AdityaConnect.SampleData"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/SampleData.swift"
+                  timestampString = "444042855.452698"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/NewsFeedViewController.swift"
+            timestampString = "444044655.296351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/NewsFeedViewController.swift"
+            timestampString = "444044818.805946"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "NewsFeedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.NewsFeedViewController.newsFeed.getter : ObjectiveC.NSMutableArray"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/NewsFeedViewController.swift"
+                  timestampString = "444044849.41247"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.NewsFeedViewController.newsFeed.materializeForSet : ObjectiveC.NSMutableArray"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/NewsFeedViewController.swift"
+                  timestampString = "444044849.412847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.NewsFeedViewController.init (AdityaConnect.NewsFeedViewController.Type)(style : C.UITableViewStyle) -&gt; AdityaConnect.NewsFeedViewController"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/NewsFeedViewController.swift"
+                  timestampString = "444044849.413012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.NewsFeedViewController.init (AdityaConnect.NewsFeedViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; AdityaConnect.NewsFeedViewController"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/NewsFeedViewController.swift"
+                  timestampString = "444044849.413185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.NewsFeedViewController.init (AdityaConnect.NewsFeedViewController.Type)() -&gt; AdityaConnect.NewsFeedViewController"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/NewsFeedViewController.swift"
+                  timestampString = "444044849.413731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdityaConnect.NewsFeedViewController.init (AdityaConnect.NewsFeedViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; AdityaConnect.NewsFeedViewController"
+                  moduleName = "AdityaConnect"
+                  urlString = "file:///Users/Anurag/Documents/xcode/AdityaConnect/AdityaConnect/NewsFeedViewController.swift"
+                  timestampString = "444044849.414469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/SampleData.swift"
+            timestampString = "444046286.859383"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getData()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdityaConnect/SampleData.swift"
+            timestampString = "444046324.077024"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "getData()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
